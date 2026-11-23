@@ -1,0 +1,124 @@
+
+.evaluation-container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+.evaluation-container h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.evaluation-subtitle {
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.evaluation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 25px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.evaluation-form label {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.evaluation-form input,
+.evaluation-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.evaluation-form textarea {
+  resize: vertical;
+}
+
+.evaluation-form button {
+  padding: 14px;
+  margin-top: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.evaluation-form button:hover {
+  background: #1d4ed8;
+}
+
+.evaluation-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.evaluation-error {
+  color: #dc2626;
+}
+
+.evaluation-results {
+  margin-top: 30px;
+  padding: 25px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.overall-score {
+  font-size: 42px;
+  font-weight: bold;
+  color: #16a34a;
+  margin: 20px 0;
+}
+
+.score-item {
+  margin: 18px 0;
+}
+
+.score-label {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.score-bar {
+  height: 10px;
+  background: #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.score-fill {
+  height: 100%;
+  background: #16a34a;
+  border-radius: 20px;
+}
+
+.evaluation-results li {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.suggested-answer {
+  background: #f3f4f6;
+  padding: 18px;
+  border-radius: 8px;
+  line-height: 1.7;
+}
