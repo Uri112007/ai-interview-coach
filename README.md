@@ -167,9 +167,9 @@ Never commit your actual `.env` file or expose your Gemini API key publicly.
 
 ## 👨‍💻 Author
 
-**Your Name**
+Uri
 
-GitHub: [Your GitHub Profile](https://github.com/YOUR_USERNAME)
+GitHub: [Uri112007](https://github.com/Uri112007)
 
 ---
 
